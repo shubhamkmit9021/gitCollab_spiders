@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mens Page</title>
+
+    <style>
+        #container{
+            display: flex;
+            width: 40%;
+            margin: auto;
+            /* border: 2px solid black; */
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        img{
+            width:200px;
+            height: 250px;
+        }
+
+        #container > div > div{
+            display: flex;
+            margin-top: -20px;
+        }
+
+        #container > div > div > p{
+            
+            margin-left: 10px;
+        }
+
+        #container > div > div > p:nth-child(3){
+            color: green;
+        }
+
+        #container > div > div > p:nth-child(2){
+            text-decoration:line-through;
+        }
+
+        h3+p{
+            color: gray;
+            margin-top: -15px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div>
+            <img src="https://m.media-amazon.com/images/I/61A7EkYy9RL._UY879_.jpg" alt="dress">
+            <h3>Pause</h3>
+            <p>Men Cotton Long Sleevless Shrug</p>
+            <div>
+                <p><b>₹ 359</b></p>
+                <p>₹ 1,499</p>
+                <p>-76%</p>
+            </div>
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/71b0OUF7ptL._UY879_.jpg" alt="dress">
+            <h3>JUBINATION</h3>
+            <p>Meen Wool Sleevless Sweater Pack Of 1</p>
+            <div>
+                <p><b>₹ 799</b></p>
+                <p>₹ 1,499</p>
+                <p>-47%</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
