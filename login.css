@@ -1,0 +1,54 @@
+form {
+    background-color: aliceblue;
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 30%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 40px;
+    border-radius: 17px;
+    text-align: center;
+  }
+  body{
+    background-color:blueviolet;
+  }
+
+  h1{
+    margin: 40px;
+    
+  }
+
+  #login_email{
+    margin: 20px;
+    width: 90%;
+    height: 42px; 
+  }
+
+  #pass{
+    margin: 20px;
+    width: 90%;
+    height: 42px;
+  } 
+
+ 
+
+  input[type="submit"] {
+    background-color: blueviolet;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: none;
+    cursor: pointer;
+    width: 90%;
+    font-size: 20px;
+    margin: 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3973b6;
+  }
+
+  * {
+    box-sizing:border-box;
+  }
+
+  
